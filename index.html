@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>online food shop</title>
+</head>
+<div class="container-fluid login_container">
+    <div class="container">
+        <div class="row login_row">
+            <div class="col-md-5 login_col">
+                <div class="container login_child_container">
+                    <h4>LOGIN FORM</h4>
+                    <input type="email" placeholder="enter your eamil" class="input_items">
+                    <input type="password" placeholder="enter your password" class="input_items">
+                    <span class="check_box"><input type="checkbox"><span class="check_box_content">Remember
+                            Me</span></span>
+                    <button type="submit" class="input_items login_btn">Login Now</button>
+                    <p id="p">Forget password? <a href="">Click Here</a></p>
+                    <p>Don't have an account? <a href="">Create One</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body data-bs-spy="scroll" data-bs-target="#myScrollspy" class="body">
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="row header_child">
+                <div class="col-3 logo">
+                    <span class="material-symbols-outlined">
+                        restaurant
+                    </span>
+                    <span class="food">Food</span>
+                </div>
+                <div class="col-5 menu" id="myScrollspy">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#popular">Popular</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#order">Order</a>
+                    <a href="#blog">Blog</a>
+                </div>
+                <div class="col-4 icons_container">
+                    <div class="icon menu_icon">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </div>
+                    <div class="icon search_icon">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </div>
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                    <div class="icon login_icon">
+                        <span class="material-symbols-outlined">
+                            person_add
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mobile_menu">
+        <div class="container">
+            <div class="row">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#popular">Popular</a>
+                <a href="#menu">Menu</a>
+                <a href="#order">Order</a>
+                <a href="#blog">Blog</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid search_container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 search_bar">
+                    <input type="search" name="" id="search_box" placeholder="Searech here...">
+                    <label for="search_box"><span class="material-symbols-outlined">
+                            search
+                        </span></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid home" id="home">
+        <div class="container">
+            <div class="row d-md-flex flex-lg-row flex-column-reverse">
+                <div class="col-md-6 content">
+                    <h3>Welocme Foodies</h3>
+                    <h1>Different Spices For The Different Tastes 😋</h1>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam
+                        Debitis Tenetur Harum Nemo.</p>
+                    <button type="button" class="order_btn">Order Now</button>
+                </div>
+                <div class="col-md-6 home_img">
+                    <img src="image/home-img.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container category">
+            <div class="row">
+                <div class="col">
+                    <div class="category_item">
+                        <img src="image/cat-1.png" alt="">
+                        <p>Combo</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="category_item">
+                        <img src="image/cat-2.png" alt="">
+                        <p>Pizza</p>
+                    </div>
+                </div>
+
+                <div class="col ">
+                    <div class="category_item">
+                        <img src="image/cat-3.png" alt="">
+                        <p>Burgar</p>
+                    </div>
+                </div>
+
+                <div class="col ">
+                    <div class="category_item">
+                        <img src="image/cat-4.png" alt="">
+                        <p>chicken</p>
+                    </div>
+                </div>
+
+                <div class="col ">
+                    <div class="category_item">
+                        <img src="image/cat-5.png" alt="">
+                        <p>Dinner</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="category_item">
+                        <img src="image/cat-6.png" alt="">
+                        <p>Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/about-img.png" alt="">
+                </div>
+                <div class="col-md-6 content">
+                    <h3 class="h3_1">Why Chose Us?</h3>
+                    <h3 class="h3_2">What's Make Our Food Delicious!</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eos Ut Explicabo, Numquam Iusto Est A
+                        Ipsum Assumenda Tempore Esse Corporis?</p>
+                    <button class="order_btn">Read More</button>
+                    <div class="row">
+                        <div class="col service">
+                            <img src="image/serv-1.png" alt="">
+                            <h5>Fast Delievery</h5>
+                        </div>
+                        <div class="col service">
+                            <img src="image/serv-2.png" alt="">
+                            <h5>Fresh Food</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col service">
+                            <img src="image/serv-3.png" alt="">
+                            <h5>Best Quality</h5>
+                        </div>
+                        <div class="col service">
+                            <img src="image/serv-4.png" alt="">
+                            <h5>24/7 Support</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid popular" id="popular">
+        <div class="container">
+            <div class="row">
+                <h3 class="h3_1">Popular Food</h3>
+                <h3 class="h3_2">Our Special Dishes</h3>
+            </div>
+            <div class="row ">
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-1.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-2.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-3.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-4.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-5.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-6.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-7.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+                <div class="col-md-3 popular_item_container">
+                    <div class="container popular_item">
+                        <img src="image/food-8.png" alt="">
+                        <h5>Delicious Food</h5>
+                        <p>(50)</p>
+                        <h6>$40.00<span>$50.00</span></h6>
+                        <button class="order_btn">Add To Card</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container banner">
+            <div class="banner_child">
+                <h3>Double Chesese</h3>
+                <h1>BURGER</h1>
+                <h5>With Cococola And Fries</h5>
+                <button class="order_btn">Order Now</button>
+            </div>
+        </div>
+        <div class="container special_offer_container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="special_offer">
+                        <img src="image/banner-1.png" alt="">
+                        <div class="special_content">
+                            <h3>Special Offer</h3>
+                            <h2>Upto 50% off</h2>
+                            <button class="order_btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="special_offer special_offer_2">
+                        <img src="image/banner-2.png" alt="">
+                        <div class="special_content">
+                            <h3>Special Offer</h3>
+                            <h2>Upto 50% off</h2>
+                            <button class="order_btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="special_offer">
+                        <img src="image/banner-3.png" alt="">
+                        <div class="special_content">
+                            <h3>Special Offer</h3>
+                            <h2>Upto 50% off</h2>
+                            <button class="order_btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="container menu_desctrion">
+                    <h4>Our Menu</h4>
+                    <h3>Our Top Dishe</h3>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 30px;">
+                <div class="col-md-4">
+                    <div class="conteiner our_menu_item">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="image/menu-1.png" alt="">
+                            </div>
+                            <div class="col-7 our_menu_item_desctrion">
+                                <h5>Delicious Food</h5>
+                                <p>$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="conteiner our_menu_item">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="image/menu-2.png" alt="">
+                            </div>
+                            <div class="col-7 our_menu_item_desctrion">
+                                <h5>Delicious Food</h5>
+                                <p>$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="conteiner our_menu_item">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="image/menu-3.png" alt="">
+                            </div>
+                            <div class="col-7 our_menu_item_desctrion">
+                                <h5>Delicious Food</h5>
+                                <p>$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="conteiner our_menu_item">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="image/menu-4.png" alt="">
+                            </div>
+                            <div class="col-7 our_menu_item_desctrion">
+                                <h5>Delicious Food</h5>
+                                <p>$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="conteiner our_menu_item">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="image/menu-6.png" alt="">
+                            </div>
+                            <div class="col-7 our_menu_item_desctrion">
+                                <h5>Delicious Food</h5>
+                                <p>$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="conteiner our_menu_item">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="image/menu-6.png" alt="">
+                            </div>
+                            <div class="col-7 our_menu_item_desctrion">
+                                <h5>Delicious Food</h5>
+                                <p>$40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid order" id="order">
+        <div class="container">
+            <div class="row desctrion">
+                <h3>Order Now</h3>
+                <h2>Fastest Home Delivery</h2>
+            </div>
+            <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+                <div class="col-md-4">
+                    <div class="container order_box">
+                        <img src="image/icon-1.png" alt="">
+                        <h5>7:00am To 10:30pm</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="container order_box">
+                        <img src="image/icon-2.png" alt="">
+                        <h5>+123-456-7890</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="container order_box">
+                        <img src="image/icon-3.png" alt="">
+                        <h5>Yangon, Myanmar - 400104</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container input_main_container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" name="" id="" placeholder="customer's name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <label class="form-label">Your Number</label>
+                            <input type="number" name="" id="" placeholder="customer's Number" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <label class="form-label">Your Order</label>
+                            <input type="text" name="" id="" placeholder="food you want" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <label class="form-label">How Much</label>
+                            <input type="number" name="" id="" placeholder="Number of order" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <label class="form-label">Your Details</label>
+                            <input type="text" name="" id="" placeholder="massage" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <label class="form-label">Pick Up Time</label>
+                            <input type="datetime-local" name="" id="" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <textarea type="text" name="" id="" placeholder="your address"
+                                class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container input_container">
+                            <iframe class="map"
+                                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d675.1117248678166!2d96.13031547467314!3d16.825927979043925!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1702545229601!5m2!1sen!2smm"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid blog" id="blog">
+        <div class="container">
+            <div class="row blog_desctrion">
+                <h4>Our Blogs</h4>
+                <h3>Our Daily Stories</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 blog_box_container">
+                    <div class="blog_img">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="container blog_box">
+                        <p>Food / Burgar / Pizza</p>
+                        <h4>Blog Title Goes Here...</h4>
+                        <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
+                        <button class="order_btn">Read More</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 blog_box_container">
+                    <div class="blog_img">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="container blog_box">
+                        <p>Food / Burgar / Pizza</p>
+                        <h4>Blog Title Goes Here...</h4>
+                        <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
+                        <button class="order_btn">Read More</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 blog_box_container">
+                    <div class="blog_img">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="container blog_box">
+                        <p>Food / Burgar / Pizza</p>
+                        <h4>Blog Title Goes Here...</h4>
+                        <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
+                        <button class="order_btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <h4>New Letter</h4>
+                <div class="col-md-8 input_form">
+                    <input type="email" placeholder="enter your email" class="email_input">
+                    <button type="submit" class="subscribe_btn">Scbscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="container footer_link">
+            <div class="row">
+                <div class="col-md-3 footer_menu">
+                    <h5>Our Menu</h5>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>Pizza</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>Burgar</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>Chicken</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>Pasta</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>And more...</span></a>
+                </div>
+
+                <div class="col-md-3 footer_menu">
+                    <h5>Qucick Link</h5>
+                    <a href="#home"><i class="bi bi-arrow-right"></i><span>Home</span></a>
+                    <a href="#about"><i class="bi bi-arrow-right"></i><span>About</span></a>
+                    <a href="#popular"><i class="bi bi-arrow-right"></i><span>Popular</span></a>
+                    <a href="#menu"><i class="bi bi-arrow-right"></i><span>Menu</span></a>
+                    <a href="#order"><i class="bi bi-arrow-right"></i><span>Order</span></a>
+                    <a href="#blogs"><i class="bi bi-arrow-right"></i><span></span></a>
+                </div>
+
+                <div class="col-md-3 footer_menu">
+                    <h5>Extra Link</h5>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>My Order</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>My Account</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>My Favourite</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>Terms of use</span></a>
+                    <a href=""><i class="bi bi-arrow-right"></i><span>Pravicy Policy</span></a>
+                </div>
+
+                <div class="col-md-3 footer_menu">
+                    <h5>Opening Hours</h5>
+                    <p>Monday : 7:00am To 10:00pm</p>
+                    <p>Tuesday : 7:00am To 10:00pm</p>
+                    <p>Wednesday : 7:00am To 10:00pm</p>
+                    <p>Friday : 7:00am To 10:00pm</p>
+                    <p>Saturday And Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row footer_end">
+                <h5>Create &nbsp; By <span>Soe Pyae Moe</span>&nbsp;| All Rights Reserved!</h5>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
